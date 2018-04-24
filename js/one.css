@@ -1,0 +1,126 @@
+body{
+	background: #FFFFFF;
+	font-family: arial;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+    }
+ #container{background: #123456;
+       margin: 0px auto ;
+       text-align: left;
+       width: 1000px;
+       height: 800px;
+       }
+ #banner{margin: 0px;
+         padding: 0px;
+        background: #778899;
+        width: 100%;
+        height: 25%;
+    }      
+#globllink{margin: 0px;
+         padding: 0px;
+           
+    }    
+    #globllink ul{list-style-type: none;
+    padding: 0px;
+    margin: 0px;}
+    #globllink ul li{float:left;width: 12.5%;text-align: center;}
+     #globllink ul li a{background:url(../img/chunse.jpg) no-repeat;display: block;padding: 5px 5px;}
+     #globllink  a:link,#globllink a:visited{color: #354665;text-decoration:underline ;}
+     #globllink a:hover{color: #ffffff; text-decoration: none; background: url(../img/草绿.jpg);}
+     #globllink a:active{color: greenyellow;}	        
+     
+     
+#left         
+         {margin: 0px 0px -5px 0px ;
+         padding: 0px 0px -10px 0px;
+         background: #ffffff;
+         width: 28%;
+       
+         float: left;   
+        }
+#weather{ background:url(../img/yangguang.jpg) no-repeat ;
+         margin: 0px ; padding: 1px ;
+         background-color: lawngreen; }
+#weather h2{font-size: 25px; text-align: center;padding: 0px;font-family: "微软雅黑";color: #7CFC00;
+         margin: 2px 0px;}
+#weather  ul{margin: 0px ;padding: 0px 0px 0px 15px; list-style-type: none;}
+#today { font-size: 15px; background: #2286C6;margin-top: -20px;padding-left: 50px ;color: #FF0000;}
+
+#one{background: yellowgreen;}
+#one ul{list-style-type: none;margin-top:-18px ;padding:5px 5px 0px 5px;}
+   #one ul li{text-align: center;}   
+   #one ul li img{border: #FFFFFF solid 3px;}
+   #one ul li a:link{text-decoration: none;color: #542395;}
+   #one ul li a:visited{color: #123446;}
+   #one ul li a:hover{color: orangered;text-decoration: underline;}
+   #one ul li a:active{color: red;}
+   
+     
+#middle{margin: 8px;
+         padding: 0px ;
+         background: #ffffff;
+         width: 38%;
+         ;
+         float: left;   
+        }
+#middle div{margin: 2px 0px;}
+#meijing h2{margin:5px 0px 5px 0px;padding: 0px;text-align: center;color: black;font-weight: 100;background:green;}        
+#meijing {float: left; }        
+#meijing ul{list-style-type: none; padding: 0px;margin: 0px;}
+#meijing ul li{float: left; width: 33%;text-align: center;margin: 0px;}
+  #meijing ul li img{border:3px blueviolet  solid;}
+  
+  
+ #xian {clear: both;}  
+ #xian ul{margin: 0px 0px 10px 0px; padding-bottom: 25px;}
+#xian ul li{clear: both;width: 100%;text-align: left;list-style-type: circle;padding: 5px 0px 10px 15px;} 
+#xian ul li a:link{color:brown ;text-decoration: none;}
+#xian ul li a:hover{color: greenyellow;}
+
+#youji{margin: 0px 0px; background:url(../img/草绿.jpg) ;}
+#youji h3{text-align: center; font-family: 隶书;font-size: 30px;padding: 0px; margin: 2px 0px;}
+#youji h4{margin: 2px 0px 0px 0px; padding: 2px 0px;;}
+      #youji a:link{color: yellow;text-decoration: none;}
+#youji a:hover{color: #000000;}
+        
+        
+        
+#right {margin: 0px 0px -25px 0px ;
+         padding: 0px 0px 15px 0px ;
+        
+         width:30%;
+          
+          float: left; 
+        }  
+ #shiqinghuayi    {background: url(../img/雪.jpg) no-repeat;padding: 0px 5px 3px 5px ; margin: -18px -15px 0px -4px ; }  
+  #shiqinghuayi h2{text-align: center;text-decoration: none;} 
+  #shiqinghuayi h2 a{text-decoration: none;}  
+    #shiqinghuayi h2 a:link{color: #FF4500;} 
+     #shiqinghuayi h2 a:hover{color: black;}
+     
+     #hua a img{border: 10px solid lawngreen; ;margin: 0px 0px 0px -5px ;text-align: center;}    
+ #jiudian {background: url(../img/chunse.jpg);margin: 0px -15px 30px -5px;padding-bottom: 0.5px;}
+ #jiudian h2{text-align: center;padding: 0px;background: yellowgreen;margin: 0px;}       
+ #jiudian ul{list-style-type: ;text-align: left; padding: 0px 0px 15px 40px;margin-top:3px ;}   
+   #jiudian ul li{border-bottom: dashed cyan;padding-top:3px ;}  
+    
+  #jiudian ul li a:link,#jiudian ul li a:visited{text-decoration: none;color: black;}
+   #jiudian ul li a:hover{color:darkred ;}
+  
+       
+#footer {margin-top:0px
+         padding: 5px ;
+         background: pink;
+         width: 100%;
+  
+         clear: both;   
+        }  
+ #footer{text-align: center; ;} 
+  #footer p{font-size: 30px;background: yellow;padding: 3px;}   
+   #footer p a{color: #FFFFFF;text-decoration: none;}
+  
+#fengliu{font-size: 50px;
+         font-family: 隶书;
+         float: left; 
+         z-index: 2px;    }           
